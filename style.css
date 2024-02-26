@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.inner {
+    width: 30rem;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.inner button {
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
